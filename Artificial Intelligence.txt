@@ -1,0 +1,164 @@
+                                                                          Artificial Intelligence for beginners 
+                                                                          
+                                                                          
+ Neural network and deep learning are the core of modern AI: Neural architecture is used for work with image and text.
+ 
+
+ Weak AI (Narrow AI)
+✅ Definition:
+
+AI systems designed and trained for a specific task.
+
+They do not possess consciousness, genuine understanding, or self-awareness.
+
+✅ Key Features:
+
+Perform limited, narrow functions.
+
+Operate within predefined parameters.
+
+Cannot truly understand meaning or context the way humans do.
+
+✅ Examples:
+
+Siri, Alexa, or Google Assistant
+
+Chatbots
+
+Image recognition software
+
+Spam filters
+
+Recommendation systems (Netflix, YouTube, Amazon)
+
+✅ Alternate Names:
+
+Narrow AI
+
+Applied AI
+
+Strong AI (Artificial General Intelligence – AGI)
+✅ Definition:
+
+AI with human-level (or beyond) cognitive abilities.
+
+Capable of understanding, reasoning, and learning across any domain, just like a human.
+
+✅ Key Features:
+
+Consciousness or awareness (theoretical)
+
+Understands context and meaning
+
+Can solve problems it wasn’t explicitly programmed for
+
+Has flexible, general intelligence
+
+✅ Examples:
+
+None exist yet. Strong AI is still theoretical.
+
+✅ Alternate Names:
+
+Artificial General Intelligence (AGI)
+
+Full AI
+
+Human-level AI
+
+Turing test:- The Turing Test is a method proposed by Alan Turing in 1950 to answer the question:
+
+“Can machines think?”
+
+Instead of directly defining “thinking,” Turing suggested a practical test.
+
+How the Turing Test Works
+Imagine a human judge chatting (usually via text) with:
+
+A human, and
+
+A machine (computer program or AI)
+
+The conversations happen blindly:
+
+The judge doesn’t know who’s human and who’s the machine.
+
+The judge asks any questions they want.
+
+✅ The machine passes the Turing Test if:
+
+The judge cannot reliably tell the machine apart from the human based on the conversation.
+
+
+             Turing Test in simple words = A game to see if you can tell a human from a machine by chatting with them.
+             
+             
+     Top-Down Approach(Symbolic reasoning)
+Definition:
+
+Start from the big picture or overall system.
+
+Break it down into smaller parts or detailed steps.
+
+How it works:
+
+Understand the whole system or goal.
+
+Divide it into major components.
+
+Keep breaking each part into smaller tasks until you reach the simplest level.
+
+Advantages:
+
+Clear vision of the overall goal.
+
+Good for planning large systems.
+
+Helps keep work organized.
+
+Examples:
+
+Designing software by first planning overall architecture, then coding individual modules.
+
+Writing an essay by outlining main sections first, then filling in details.
+
+Management planning company goals first, then assigning tasks to departments.
+
+   Bottom-Up Approach(Neural Network)
+Definition:
+
+Start with small, simple parts.
+
+Combine them to build more complex systems.
+
+How it works:
+
+Create or analyze small, basic units.
+
+Integrate them to form bigger structures.
+
+Keep combining until you achieve the full system.
+
+Advantages:
+
+Often leads to reusable, flexible components.
+
+Good for exploring unknown problems.
+
+Encourages innovation in small parts.
+
+Examples:
+
+Writing small functions first, then combining them into a program.
+
+Learning letters and sounds before forming words and sentences.
+
+Scientists studying atoms and molecules to understand larger materials.
+
+Machine learning:- Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called Machine Learning. 
+
+
+
+
+ 
+ 
