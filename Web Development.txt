@@ -1,0 +1,81 @@
+                                                                      WEB DEVELOPMENT 
+
+
+
+
+Programming:- Programming (also known as coding) is the process of writing instructions for a device such as a computer or mobile device. 
+We write these instructions with a programming language, which is then interpreted by the device. 
+These sets of instructions may be referred to by various names, but program, computer program, application (app), and executable are a few popular names.
+                       
+                           World's first programmer is considered to be "Ada Lovelace".
+
+Programming languages enable developers to write instructions for a device. 
+Devices can only understand binary (1s and 0s), and for most developers that's not a very efficient way to communicate. 
+Programming languages are the vehicle for communication between humans and computers.
+
+A Fibonacci sequence is defined as a set of numbers such that each number is the sum of the two preceding ones,
+starting from 0 and 1. The first 10 numbers following the Fibonacci sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21 and 34.
+A single instruction in a program is called a statement and will usually have a character or line spacing that marks 
+where the instruction ends, or terminates. 
+
+Browsers:-
+Another crucial tool is the browser. Web developers rely on the browser to see how their code runs on the web. It's also used to display the visual elements of a web page that are written in the editor, like HTML.
+
+Many browsers come with developer tools (DevTools) that contain a set of helpful features and information to help developers collect and capture important information about their application. For example: If a web page has errors, it's sometimes helpful to know when they occurred. DevTools in a browser can be configured to capture this information.
+
+Intro to github:-
+GitHub is a web platform for hosting code using Git version control. It lets developers track changes, collaborate, and manage projects. Code is stored in repositories, which can be public or private. Changes are saved as commits, and new features are developed in branches. Pull requests help review and merge changes. Users can report bugs or tasks through issues, and fork repositories to create independent copies. GitHub also offers Actions to automate tasks like testing or deployment.
+
+
+Intro to git:-
+
+* **Version Control**
+  Tracks changes in files over time, allowing you to revert or review history.
+
+* **Repository (Repo)**
+  A project folder managed by Git, storing all files and history.
+
+* **Git Init**
+  Starts a new Git repository in a folder.
+
+* **Clone**
+  Copies an existing repo from a server to your local machine.
+
+* **Add**
+  Stages changes to be included in the next commit.
+
+* **Commit**
+  Records staged changes to the repository’s history with a message.
+
+* **Status**
+  Shows the current state of the working directory and staging area.
+
+* **Log**
+  Displays commit history.
+
+* **Diff**
+  Shows differences between files or commits.
+
+* **Branch**
+  Creates separate lines of development for new features or fixes.
+
+* **Checkout**
+  Switches between branches or restores files.
+
+* **Merge**
+  Combines changes from one branch into another.
+
+* **Rebase**
+  Moves or combines commits to create a cleaner history.
+
+* **Remote**
+  Links your local repo to a server like GitHub.
+
+* **Push**
+  Uploads local commits to a remote repo.
+
+* **Pull**
+  Downloads changes from a remote repo and merges them.
+
+* **Stash**
+  Temporarily saves changes that aren’t ready to commit.
