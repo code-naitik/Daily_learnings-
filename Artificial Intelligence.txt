@@ -220,9 +220,115 @@ Owner        : John
 | Block Syntax   | Indent              |                |                  |
 +----------------+---------------------+----------------+------------------+
 
-        
+3.Procedural representations are based on representing knowledge by a list of actions that can be executed when a certain condition occurs.
+
+Production rules are if-then statements that allow us to draw conclusions. For example, a doctor can have a rule saying that IF a patient has high fever OR high level of C-reactive protein in blood test THEN he has an inflammation. Once we encounter one of the conditions, we can make a conclusion about inflammation, and then use it in further reasoning.
+Algorithms can be considered another form of procedural representation, although they are almost never used directly in knowledge-based systems.
+Predicate Logic (also called First-Order Logic) is a way to represent knowledge using predicates, variables, and quantifiers. It’s more powerful than simple true/false statements because it can describe relationships and properties of objects.
 
 
+Basic Components
+Predicate → expresses a property or a relationship.
 
+Example:
+
+Tall(John) → “John is tall.”
+
+Loves(Alice, Bob) → “Alice loves Bob.”
+
+ Variables → stand for objects.
+
+Example: x, y, z
+
+ Constants → specific objects.
+
+Example: John, Bob
+
+ Quantifiers → state how many things satisfy a condition:
+
+Universal quantifier ( ∀ ) → “for all”
+
+∀x Tall(x) → “Everyone is tall.”
+
+Existential quantifier ( ∃ ) → “there exists”
+
+∃x Tall(x) → “Someone is tall.”
+
+4.Logic was originally proposed by Aristotle as a way to represent universal human knowledge.
+
+Predicate Logic as a mathematical theory is too rich to be computable, therefore some subset of it is normally used, such as Horn clauses used in Prolog.
+Descriptive Logic is a family of logical systems used to represent and reason about hierarchies of objects distributed knowledge representations such as semantic web.
+Description Logic (DL) is a family of formal logics used to represent structured knowledge and reason about it. It's widely used in semantic web, ontology design, and knowledge-based systems.
+
+What is an Expert System?
+An expert system is a type of Artificial Intelligence (AI) program that mimics the decision-making ability of a human expert.
+It uses:
+
+Rules
+
+Facts
+
+Reasoning techniques
+
+to solve problems that usually require human expertise.
+
+How does it work?
+An expert system has two main parts:
+
+Part	               |                  What it does
+Knowledge Base	     |       Stores facts and rules from human experts.
+Inference Engine	   |       Applies rules to facts to draw conclusions.
+
+
+Forward vs. Backward Inference:
+Forward inference is a reasoning method that:
+
+ Starts with known facts
+ Applies rules to those facts
+Generates new facts or conclusions
+
+→ It’s data-driven reasoning.
+How does it work?
+Look at all known facts.
+
+Check which rules can “fire” (i.e. whose conditions are satisfied).
+
+Apply those rules to produce new facts.
+
+Repeat the process until:
+
+No more rules apply, OR
+
+A goal is reached.
+Rule 1: IF sky_is_cloudy THEN it_might_rain
+Rule 2: IF it_might_rain THEN carry_umbrella
+
+Backward inference is a reasoning method that:
+
+ Starts with a goal or question
+ Works backward through rules
+ Tries to prove the goal using known facts
+
+→ It’s goal-driven reasoning.
+
+How does it work?
+Start with what you want to prove (the goal).
+
+Look for rules whose conclusions match the goal.
+
+For each rule, check whether its conditions are true:
+
+If conditions are facts → goal proven!
+
+If not → treat conditions as new sub-goals and try to prove them.
+
+Repeat until:
+
+The goal is proven, OR
+
+It’s impossible to prove.
+
+Rule 1: IF sky_is_cloudy THEN it_might_rain
+Rule 2: IF it_might_rain THEN carry_umbrella
 
 
