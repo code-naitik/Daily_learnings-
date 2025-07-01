@@ -121,6 +121,12 @@ You can use aria-label to describe the link when the format of the page doesn't 
 
 <a href="#" aria-label="Widget description">description</a>
 
+9. Images:
+It goes without saying screen readers are unable to automatically read what's in an image. Ensuring images are accessible doesn't take much work - it's what the alt attribute is all about. All meaningful images should have an alt to describe what they are. Images that are purely decorative should have their alt attribute set to an empty string: alt="". This prevents screen readers from unnecessarily announcing the decorative image.
+
+10.The keyboard:
+Some users are unable to use a mouse or trackpad, instead relying on keyboard interactions to tab from one element to the next. It's important for your web site to present your content in logical order so a keyboard user can access each interactive element as they move down a document. If you build your web pages with semantic markup and use CSS to style their visual layout, your site should be keyboard-navigable, but it's important to test this aspect manually.
+
 
 
 
