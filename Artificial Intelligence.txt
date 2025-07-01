@@ -169,8 +169,8 @@ Links (edges) → represent relationships between those concepts (e.g. is-a, has
 _______________________________________________________________________________
 |Object	         |      Attribute	   |                   Value                |
 |Python	         |        is         |               Untyped-Language         |
-|Python	         |   invented-by     |         invented-by	Guido van Rossum  |
-|Python	         |   block-syntax    |            block-syntax	indentation   |
+|Python	         |   invented-by     |         	    Guido van Rossum          |
+|Python	         |   block-syntax    |               	indentation             |
 |Untyped-Language|	 doesn't have	   |               type definitions         |
 _______________________________________________________________________________
 
