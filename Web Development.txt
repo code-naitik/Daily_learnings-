@@ -78,4 +78,50 @@ Intro to git:-
   Downloads changes from a remote repo and merges them.
 
 * **Stash**
-  Temporarily saves changes that aren’t ready to commit.
+  
+ As web developers we should always have accessibility in mind. By having this focus from the beginning you will be well on your way to ensure everyone can access the pages you create. In this topic we'll learn about the tools that can help you ensure that your web assets are accessible and how to build with accessibility in mind.
+
+TOOLS TO USE:-
+1. Screen readers:
+One of the best-known accessibility tools are screen readers.
+A screen reader is assistive technology that interprets digital content (text, interface elements, etc.) and converts it into:
+
+- Speech output (spoken words through speakers or headphones)
+
+-Braille output (using a refreshable Braille display for those who are deaf-blind)
+
+Screen readers help users navigate and interact with computers, smartphones, tablets, and websites without seeing the screen.
+
+2. Zoom:Zoom
+Another tool commonly used by people with vision impairments is zooming. The most basic type of zooming is static zoom, controlled through Control + plus sign (+) or by decreasing screen resolution. This type of zoom causes the entire page to resize, so using responsive design is important to provide a good user experience at increased zoom levels.
+Another type of zoom relies on specialized software to magnify one area of the screen and pan, much like using a real magnifying glass.
+
+3. Contrast checker:
+Colors on web sites need to be carefully chosen to answer the needs of color-blind users or people who have difficulty seeing low-contrast colors.
+
+4. Lighthouse:
+In the developer tool area of your browser, you'll find the Lighthouse tool. This tool is important to get a first view of the accessibility (as well as other analysis) of a web site. While it's important not to rely exclusively on Lighthouse, a 100% score is very helpful as a baseline.
+
+5. Color safe palettes:
+People see the world in different ways, and this includes colors. When selecting a color scheme for your site, you should ensure it's accessible to all.
+
+6. Use the correct HTML:
+With CSS and JavaScript it's possible to make any element look like any type of control. <span> could be used to create a <button>, and <b> could become a hyperlink. While this might be considered easier to style, it conveys nothing to a screen reader. Use the appropriate HTML when creating controls on a page. If you want a hyperlink, use <a>. Using the right HTML for the right control is called making use of Semantic HTML.
+
+7. Create a descriptive heading hierarchy:
+Screen reader users rely heavily on headings to find information and navigate through a page. Writing descriptive heading content and using semantic heading tags are important for creating an easily navigable site for screen reader users.
+
+8. Good link text:
+Good link text briefly describes what's on the other side of the link.
+
+What is ARIA?:
+ARIA stands for Accessible Rich Internet Applications.
+It’s a set of attributes you add to HTML to help assistive technologies (like screen readers) understand custom or complex web components that don’t have built-in HTML semantics.
+You can use aria-label to describe the link when the format of the page doesn't allow you to. The description for widget could be set as
+
+<a href="#" aria-label="Widget description">description</a>
+
+
+
+
+
