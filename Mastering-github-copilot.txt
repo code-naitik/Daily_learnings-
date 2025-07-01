@@ -1,1 +1,10 @@
+GitHub Copilot is an AI-powered coding assistant. It helps you write code faster and with fewer errors by suggesting:
 
+ Code completions – It predicts the next few lines or even whole functions as you type.
+ Code snippets – It suggests common patterns or boilerplate code for various tasks.
+ Function or comment completion – Write a comment describing what you want, and Copilot tries to generate the corresponding code.
+ Learning new APIs – It suggests how to use libraries or frameworks you might not know well.
+
+It works directly in code editors like Visual Studio Code, Visual Studio, Neovim, and some JetBrains IDEs.
+
+GitHub Copilot is powered by OpenAI’s models (originally Codex, now more advanced versions). It’s trained on a huge dataset of publicly available code and natural language.
