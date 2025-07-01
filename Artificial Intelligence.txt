@@ -5,13 +5,13 @@
  
 
  Weak AI (Narrow AI)
-✅ Definition:
+ Definition:
 
 AI systems designed and trained for a specific task.
 
 They do not possess consciousness, genuine understanding, or self-awareness.
 
-✅ Key Features:
+ Key Features:
 
 Perform limited, narrow functions.
 
@@ -19,7 +19,7 @@ Operate within predefined parameters.
 
 Cannot truly understand meaning or context the way humans do.
 
-✅ Examples:
+ Examples:
 
 Siri, Alexa, or Google Assistant
 
@@ -31,20 +31,20 @@ Spam filters
 
 Recommendation systems (Netflix, YouTube, Amazon)
 
-✅ Alternate Names:
+ Alternate Names:
 
 Narrow AI
 
 Applied AI
 
 Strong AI (Artificial General Intelligence – AGI)
-✅ Definition:
+ Definition:
 
 AI with human-level (or beyond) cognitive abilities.
 
 Capable of understanding, reasoning, and learning across any domain, just like a human.
 
-✅ Key Features:
+ Key Features:
 
 Consciousness or awareness (theoretical)
 
@@ -54,11 +54,11 @@ Can solve problems it wasn’t explicitly programmed for
 
 Has flexible, general intelligence
 
-✅ Examples:
+ Examples:
 
 None exist yet. Strong AI is still theoretical.
 
-✅ Alternate Names:
+ Alternate Names:
 
 Artificial General Intelligence (AGI)
 
@@ -85,7 +85,7 @@ The judge doesn’t know who’s human and who’s the machine.
 
 The judge asks any questions they want.
 
-✅ The machine passes the Turing Test if:
+ The machine passes the Turing Test if:
 
 The judge cannot reliably tell the machine apart from the human based on the conversation.
 
@@ -157,8 +157,72 @@ Scientists studying atoms and molecules to understand larger materials.
 
 Machine learning:- Part of Artificial Intelligence that is based on computer learning to solve a problem based on some data is called Machine Learning. 
 
+Computer knowledge representation:-
+Network representations are based on the fact that we have a network of interrelated concepts inside our head. We can try to reproduce the same networks as a graph inside a computer - a so-called semantic network. In simple words a semantic network is a way of representing knowledge using a graph of nodes and links:
+
+Nodes → represent concepts, objects, ideas, or words (e.g. Cat, Animal, Has Fur).
+Links (edges) → represent relationships between those concepts (e.g. is-a, has, part-of).
+
+1.Object-Attribute-Value triplets or attribute-value pairs:- Since a graph can be represented inside a computer as a list of nodes and edges, we can represent a semantic network by a list of triplets, containing objects, attributes, and values. For example, ollowing triplets about programming languages:
+
+
+_______________________________________________________________________________
+|Object	         |      Attribute	   |                   Value                |
+|Python	         |        is         |               Untyped-Language         |
+|Python	         |   invented-by     |         invented-by	Guido van Rossum  |
+|Python	         |   block-syntax    |            block-syntax	indentation   |
+|Untyped-Language|	 doesn't have	   |               type definitions         |
+_______________________________________________________________________________
+
+2.Hierarchical representations are ways of organizing information in a tree-like structure, where elements are arranged at different levels of importance, generality, or specificity.
+
+Key ideas:
+
+Levels of hierarchy — concepts at the top are broader or more general, while those lower down are more specific.
+
+ Parent-child relationships — higher-level concepts act as “parents,” and lower-level concepts are their “childrenff
+
+ Single path upward — each item (except the topmost) has one direct parent.
+For ex.
+
+
+            Animal
+          /        \
+       Mammal      Bird
+      /      \         \
+    Dog      Cat      Sparrow
+
+Animal is the most general concept.
+
+Mammal and Bird are subcategories.
+
+Dog, Cat, and Sparrow are specific examples.
+
+
+A frame representation is a way of storing knowledge using data structures called frames. Each frame represents a concept, object, situation, or event, and contains slots that hold information about its attributes and relationships.
+Scenarios are special kind of frames that represent complex situations that can unfold in time.
+
+Frame: Car
+-------------------------
+Type         : Vehicle
+Color        : Red
+Wheels       : 4
+Engine-Type  : Petrol
+Owner        : John
+
++----------------+---------------------+----------------+------------------+
+| Slot           | Value               | Default value  | Interval         |
++----------------+---------------------+----------------+------------------+
+| Name           | Python              |                |                  |
+| Is-A           | Untyped-Language    |                |                  |
+| Variable Case  |                     | CamelCase      |                  |
+| Program Length |                     |                | 5-5000 lines     |
+| Block Syntax   | Indent              |                |                  |
++----------------+---------------------+----------------+------------------+
+
+        
 
 
 
- 
- 
+
+
