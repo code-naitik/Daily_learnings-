@@ -332,3 +332,101 @@ Rule 1: IF sky_is_cloudy THEN it_might_rain
 Rule 2: IF it_might_rain THEN carry_umbrella
 
 
+Ontologies and the Semantic Web:
+The Semantic Web is an extension of the current web that aims to make data understandable to machines, not just humans.
+
+Instead of web pages being just text or images for people to read, the Semantic Web adds meaning (semantics) to the data so computers can process, connect, and reason about information intelligently.
+
+In short:
+
+Semantic Web = Web of data with meaning.
+Example:
+
+A page says “Paris” — is it the city, a person’s name, or a brand?
+
+The Semantic Web helps clarify:
+
+Paris → rdf:type City
+
+Paris → locatedIn France
+
+
+
+Ontology defines:
+
+Classes: Animal, Mammal, Bird, Dog, Cat
+
+Properties: hasLegs, eats, livesIn
+
+Relationships:
+
+Dog is-a Mammal
+
+Dog hasLegs 4
+
+Dog eats Meat
+
+Neural Network:
+A Neural Network is an AI technique inspired by how the human brain works.
+
+In simple words:
+
+A neural network is a system that learns from data, understands patterns, and makes predictions or decisions.
+
+Inspired by the Human Brain
+The human brain has billions of neurons connected to each other.
+
+Similarly, a neural network has artificial neurons (also called nodes) connected in layers.
+
+Machine Learning:
+Neural Networks are a part of a larger discipline called Machine Learning, whose goal is to use data to train computer models that are able to solve problems. Machine Learning constitutes a large part of Artificial Intelligence. 
+
+What is a Perceptron?
+A Perceptron is the simplest type of artificial neural network unit (a single “neuron”). A perceptron is a binary classification model, i.e. it can distinguish between two classes of input data. We will assume that for each input vector x the output of our perceptron would be either +1 or -1, depending on the class. The output will be computed using the formula:
+
+y(x) = f(wTx)
+To train a perceptron we need to find a weights vector w that classifies most of the values correctly, i.e. results in the smallest error. This error E is defined by perceptron criterion in the following manner:
+
+E(w) = -∑wTxiti
+where:
+
+the sum is taken on those training data points i that result in the wrong classification
+xi is the input data, and ti is either -1 or +1 for negative and positive examples accordingly.
+This criteria is considered as a function of weights w, and we need to minimize it. Often, a method called gradient descent is used, in which we start with some initial weights w(0), and then at each step update the weights according to the formula:
+
+w(t+1) = w(t) - η∇E(w)
+
+Here η is the so-called learning rate, and ∇E(w) denotes the gradient of E. After we calculate the gradient, we end up with
+
+w(t+1) = w(t) + ∑ηxiti
+
+
+A simple network contained one neuron, also called a threshold logic unit. 
+
+In simple words:
+
+A perceptron takes some numbers as input, does some math, and decides yes or no as output.
+
+ What are Multi-Layered Networks?
+A Multi-Layered Network is a type of neural network that has more than one layer of neurons between the input and the output.
+
+In simple words:
+
+It’s a neural network with multiple layers that helps it learn complex patterns in data.
+
+What is a Neural Network Framework?
+A Neural Network Framework is a software library or tool that makes it easier for developers and researchers to build, train, and deploy neural networks.
+
+In simple words:
+
+A neural network framework is like a toolbox full of ready-made tools and shortcuts to help you create AI models without writing everything from scratch.
+
+Overfitting happens when a machine learning or neural network model learns too much detail from the training data — including noise or random patterns that don’t really matter.
+
+In simple words:
+
+Overfitting is when your model memorizes the training data instead of understanding the real patterns.
+
+
+
+
