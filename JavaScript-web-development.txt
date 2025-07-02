@@ -98,8 +98,55 @@ Simple values.
 Non-Primitive (Reference) Data Types
 Stored as references (address in memory).
 
-Can hold multiple values or complex data.
+Functions: A function in JavaScript is a reusable block of code designed to perform a specific task, which can be executed whenever it’s called.
 
-Mutable (can change contents).
+function sayHello() {
+  console.log("Hello, world!");
+}
+
+// Calling the function
+sayHello(); // Output: Hello, world!
+
+
+Uses of Functions in JavaScript:
+
+Avoid Repetition (Reusability)
+
+Write code once, use it many times.
+
+function greet() {
+  console.log("Hello!");
+}
+
+greet();
+greet();
+Organize Code (Readability)
+
+Makes your code neat and easier to understand.
+
+Divide Big Problems into Smaller Parts (Modularity)
+
+Solve complex tasks step by step.
+
+Accept Input and Give Output (Parameters & Return Values)
+
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(5, 3);
+console.log(result); // 8
+Use with Events
+
+Run code when something happens (like clicking a button).
+
+function showMessage() {
+  alert("Button clicked!");
+}
+
+document.querySelector("button").onclick = showMessage;
+Maintain Clean and DRY Code
+
+DRY = Don’t Repeat Yourself
 
 
