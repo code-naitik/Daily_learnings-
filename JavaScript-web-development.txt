@@ -1,0 +1,105 @@
+Declaring variables in JavaScript:
+there are three ways to do that:- 1. var one = 1; var is function scope also can be changed in scope available before declaration.
+2. let two = 2; let is block scope also it can be changed in scope only available after decalaration.
+3. const three = 3; const is block scope , it cannot be changed , only available after decalaration.
+
+Data types in JavaScript:
+Primitive Data Types
+These are immutable and stored directly in the variable.
+
+1.String
+
+Textual data
+
+e.g. "hello", 'JavaScript'
+
+2.Number
+
+Numeric values (both integers and floating point)
+
+e.g. 42, 3.14
+
+3.BigInt
+
+For very large integers beyond Number limits
+
+e.g. 9007199254740991n
+
+4.Boolean
+
+Logical true/false
+
+e.g. true, false
+
+5.undefined
+
+Variable declared but no value assigned
+
+e.g. let x; console.log(x); // undefined
+
+6.null
+
+Intentional “no value”
+
+e.g. let y = null;
+
+7.Symbol
+
+Unique, immutable identifier
+
+e.g. const sym = Symbol('id');
+
+1.Object
+
+Collections of key-value pairs
+
+e.g.
+
+js
+Copy
+Edit
+const person = { name: 'Alice', age: 25 };
+2.Array
+
+Ordered list-like objects
+
+e.g.
+
+js
+Copy
+Edit
+const numbers = [1, 2, 3, 4];
+3.Function
+
+Callable objects
+
+e.g.
+
+js
+Copy
+Edit
+function greet() {
+  console.log("Hello!");
+}
+4.Date, RegExp, Map, Set, etc.
+
+Built-in objects for special purposes
+
+
+Primitive Data Types                                                                        
+Stored directly in the variable.                                                                       
+                                                                                                                                             
+Immutable (can’t be changed directly).                                                                                                             
+                                                                                                                                                                   
+Simple values. 
+
+
+
+Non-Primitive (Reference) Data Types
+Stored as references (address in memory).
+
+Can hold multiple values or complex data.
+
+Mutable (can change contents).
+
+
