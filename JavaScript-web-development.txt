@@ -148,5 +148,31 @@ document.querySelector("button").onclick = showMessage;
 Maintain Clean and DRY Code
 
 DRY = Don’t Repeat Yourself
+Passing information to a function:-
+To make a function more reusable you'll often want to pass information into it. If we consider our displayGreeting example above, it will only display Hello, world!. Not the most useful function one could create. If we want to make it a little more flexible, like allowing someone to specify the name of the person to greet, we can add a parameter. A parameter (also sometimes called an argument), is additional information sent to a function.
 
+Parameters are listed in the definition part within parenthesis and are comma separated like so:
+
+function name(param, param2, param3) {
+
+}
+
+Functions as parameters for functions:-
+As you progress in your programming career, you will come across functions which accept functions as parameters. This neat trick is commonly used when we don't know when something is going to occur or complete, but we know we need to perform an operation in response.
+
+function displayDone() {
+  console.log('3 seconds has elapsed');
+}
+// timer value is in milliseconds
+setTimeout(displayDone, 3000);
+
+Anonymous functions-
+Let's take another look at what we've built. We're creating a function with a name which will be used one time. As our application gets more complex, we can see ourselves creating a lot of functions which will only be called once. This isn't ideal. As it turns out, we don't always need to provide a name!
+
+When we are passing a function as a parameter we can bypass creating one in advance and instead build one as part of the parameter. We use the same function keyword, but instead we build it as a parameter.
+function displayDone() {
+  console.log('3 seconds has elapsed');
+}
+// timer value is in milliseconds
+setTimeout(displayDone, 3000);
 
