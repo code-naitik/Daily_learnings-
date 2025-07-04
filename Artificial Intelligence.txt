@@ -425,7 +425,7 @@ Overfitting happens when a machine learning or neural network model learns too m
 
 In simple words:
 
-Overfitting is when your model memorizes the training data instead of understanding the real patterns.
+Overfitting is when your model memorizes the training data instead of understanding the real pattern.
 
 
 
