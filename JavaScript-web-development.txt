@@ -176,3 +176,46 @@ function displayDone() {
 // timer value is in milliseconds
 setTimeout(displayDone, 3000);
 
+Fat arrow functions
+One shortcut common in a lot of programming languages (including JavaScript) is the ability to use what's called an arrow or fat arrow function. It uses a special indicator of =>, which looks like an arrow - thus the name! By using =>, we are able to skip the function keyword.
+
+Let's rewrite our code one more time to use a fat arrow function:
+
+setTimeout(() => {
+  console.log('3 seconds has elapsed');
+}, 3000);
+
+
+ Booleans:-
+Booleans can have only two values: true or false. Booleans help make decisions on which lines of code should run when certain conditions are met.
+
+If Statement
+The if statement will run code in between its blocks if the condition is true.
+
+if (condition) {
+  //Condition is true. Code in this block will run.
+}
+
+Logical operators are often used to form the condition.
+
+let currentMoney;
+let laptopPrice;
+
+if (currentMoney >= laptopPrice) {
+  //Condition is true. Code in this block will run.
+  console.log("Getting a new laptop!");
+}
+
+If..Else Statement
+The else statement will run the code in between its blocks when the condition is false. It's optional with an if statement.
+
+let currentMoney;
+let laptopPrice;
+
+if (currentMoney >= laptopPrice) {
+  //Condition is true. Code in this block will run.
+  console.log("Getting a new laptop!");
+} else {
+  //Condition is false. Code in this block will run.
+  console.log("Can't afford a new laptop, yet!");
+}
