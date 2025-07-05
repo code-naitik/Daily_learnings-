@@ -427,6 +427,53 @@ In simple words:
 
 Overfitting is when your model memorizes the training data instead of understanding the real pattern.
 
+Perceptron ek simple artificial neuron hota hai jo machine learning aur neural networks mein use hota hai. Matlab, yeh ek mathematical model hai jo dimaag ke neuron jaise kaam karta hai.
+
+Kaise kaam karta hai:
+
+✅ Inputs – Perceptron kuch numbers (inputs) leta hai. Jaise x1, x2,....
+
+✅ Weights se multiply – Har input ko ek number (weight) se multiply karta hai.
+
+✅ Sab add karo – In multiplied values ko add kar deta hai.
+
+✅ Bias add hota hai – Is total mein ek extra number (bias) add hota hai. Bias help karta hai decision boundary ko adjust karne mein.
+
+✅ Activation Function – Total value check karta hai. Agar total 0 se bada hai, output 1 deta hai, warna 0. Matlab ON ya OFF decide karta hai.
+
+         {1 agr ∑(Wi . Xi)+b >0
+output = {
+​         {0 warna
+
+Xi = inputs
+Wi = weights
+b = bias
+
+
+ 
+Example
+Maan lo:
+
+Inputs: x1 = 2, x2 = 3
+
+Weights: w1 =0.5, w2 = -1
+
+Bias: 
+𝑏=1
+
+Calculation:  (2×0.5)+(3×−1)+1=1−3+1=−1
+
+Result negative hai, toh perceptron output karega 0.
+
+Use kya hai? – Perceptron simple decision lene mein help karta hai, jaise do classes ko separate karna (spam ya non-spam). Lekin ek single perceptron sirf simple (linearly separable) problems solve kar sakta hai. Complex kaam ke liye multiple perceptrons ko layers mein jod ke neural network bnaate h.
+
+Bias :
+Ye ek extra number hota hai jo perceptron (ya kisi bhi neuron) ke calculation mein add kiya jaata hai. Iska kaam hai decision boundary ko shift karna. Matlab, ye help karta hai ki model sirf origin (zero) ke aas-paas depend na kare, balki thoda flexible decision le sake.
+
+Ek tareeke se samjhein:
+
+Sochiye aap ek line draw kar rahe hain jo do cheezein alag kar rahi hai. Agar aapke paas bias nahi hoga, toh woh line hamesha origin se guzregi. Bias se aap woh line upar, neeche, ya side mein shift kar sakte hain. Isse model better kaam karta hai, kyunki real-life data perfect zero se start nahi hota.
+
 
 
 
