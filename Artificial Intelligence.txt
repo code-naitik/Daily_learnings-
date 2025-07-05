@@ -431,15 +431,15 @@ Perceptron ek simple artificial neuron hota hai jo machine learning aur neural n
 
 Kaise kaam karta hai:
 
-✅ Inputs – Perceptron kuch numbers (inputs) leta hai. Jaise x1, x2,....
+Inputs – Perceptron kuch numbers (inputs) leta hai. Jaise x1, x2,....
 
-✅ Weights se multiply – Har input ko ek number (weight) se multiply karta hai.
+Weights se multiply – Har input ko ek number (weight) se multiply karta hai.
 
-✅ Sab add karo – In multiplied values ko add kar deta hai.
+Sab add karo – In multiplied values ko add kar deta hai.
 
-✅ Bias add hota hai – Is total mein ek extra number (bias) add hota hai. Bias help karta hai decision boundary ko adjust karne mein.
+Bias add hota hai – Is total mein ek extra number (bias) add hota hai. Bias help karta hai decision boundary ko adjust karne mein.
 
-✅ Activation Function – Total value check karta hai. Agar total 0 se bada hai, output 1 deta hai, warna 0. Matlab ON ya OFF decide karta hai.
+Activation Function – Total value check karta hai. Agar total 0 se bada hai, output 1 deta hai, warna 0. Matlab ON ya OFF decide karta hai.
 
          {1 agr ∑(Wi . Xi)+b >0
 output = {
@@ -473,6 +473,10 @@ Ye ek extra number hota hai jo perceptron (ya kisi bhi neuron) ke calculation me
 Ek tareeke se samjhein:
 
 Sochiye aap ek line draw kar rahe hain jo do cheezein alag kar rahi hai. Agar aapke paas bias nahi hoga, toh woh line hamesha origin se guzregi. Bias se aap woh line upar, neeche, ya side mein shift kar sakte hain. Isse model better kaam karta hai, kyunki real-life data perfect zero se start nahi hota.
+
+A Multi-Layered Perceptron (MLP) is a type of artificial neural network made up of an input layer, one or more hidden layers, and an output layer, where each neuron in one layer connects to every neuron in the next. It uses activation functions and learns patterns from data through training with backpropagation.
+
+
 
 
 
