@@ -476,6 +476,89 @@ Sochiye aap ek line draw kar rahe hain jo do cheezein alag kar rahi hai. Agar aa
 
 A Multi-Layered Perceptron (MLP) is a type of artificial neural network made up of an input layer, one or more hidden layers, and an output layer, where each neuron in one layer connects to every neuron in the next. It uses activation functions and learns patterns from data through training with backpropagation.
 
+Formalization in Machine Learning (ML) means translating a real-world problem into a precise mathematical or computational form so that it can be solved using ML algorithms.
+
+In other words, you take an ambiguous, messy problem and express it in a way a computer can understand and work with.
+
+A mathematical problem in machine learning is like this:
+
+ You have numbers as input.
+ You want to find a way to get the right answer (output) from those numbers.
+ You measure how good or bad your guesses are.
+ You improve your guesses to make them as correct as possible.
+
+Example (Easiest)
+Imagine this problem:
+
+Predict the price of a house.
+
+ Input (numbers you know):
+
+Size of the house = 2000 sq. ft.
+
+Number of bedrooms = 3
+
+ Output (what you want to predict):
+
+Price of the house
+
+So the mathematical problem is:
+
+Find a formula that uses these numbers (size, bedrooms) to guess the price.
+
+Like this:
+
+price : a X size + b X beddroom + c
+a,b,c are numbers you need to figure out.
+
+You adjust these numbers until your formula predicts prices close to the real prices in your data.
+
+That’s the mathematical problem in ML.
+
+Inputs = numbers (features)
+
+Output = number or label (prediction)
+
+Goal = find the best formula or model
+
+In one line:
+A mathematical problem in ML means “find a formula to turn input numbers into the right answers.”
+
+A loss function in machine learning is a way to measure how wrong your model’s predictions are.
+
+Think of it like a score for mistakes. Lower score = better model!
+
+
+Absolute Error
+Absolute error = how far off you are, ignoring the sign.
+Absolute Error = |Real value − Predicted value|
+Example:
+
+Real price = $500,000
+
+Predicted = $480,000
+
+Absolute Error = |500,000 - 480,000| = 20,000
+
+so you are 20,000 off
+
+Squared Error
+Squared error = error squared.
+
+Squared Error = (real value - predicted value) X (real value - predicted value)
+
+Example:
+real value = $500,000
+Predicted value = $480,000
+Squared error = (500,000 - 480,000) X (500,000 - 480,000) = 400,000,000
+
+So, the error is 400 million (but note: this is not in dollars, it’s just a number).
+
+What is Logistic Loss?
+Logistic loss (also called log loss or cross-entropy loss) measures how good or bad your predictions are for classification problems, especially when predicting probabilities.
+
+
+
 
 
 
