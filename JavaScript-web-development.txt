@@ -219,3 +219,74 @@ if (currentMoney >= laptopPrice) {
   //Condition is false. Code in this block will run.
   console.log("Can't afford a new laptop, yet!");
 }
+
+== → Loose Equality
+Checks if values are equal after type conversion.
+
+Different types might become the same during comparison.
+
+console.log(5 == '5');      // true → string '5' converted to number 5
+console.log(true == 1);     // true → true converted to number 1
+console.log(null == undefined); // true
+
+=== → Strict Equality
+Checks if values are equal and types are also same.
+
+No conversion happens!
+
+console.log(5 === '5');     // false → number vs string
+console.log(true === 1);    // false → boolean vs number
+console.log(null === undefined); // false
+console.log(5 === 5);       // true
+
+!= (Loose Inequality)
+Checks if values are not equal, ignoring types.
+
+If types are different, JavaScript converts them to the same type before comparing.
+
+Examples:
+
+
+console.log(5 != '5');      // false → '5' gets converted to number 5
+console.log(true != 1);     // false → true converts to 1
+console.log(null != undefined); // false
+
+!== (Strict Inequality)
+Checks if values are not equal OR types are different.
+
+No type conversion happens.
+
+Examples:
+
+console.log(5 !== '5');     // true → number and string are different types
+console.log(true !== 1);    // true → boolean and number are different
+console.log(null !== undefined); // true
+console.log(5 !== 5);       // false → value and type are the same
+
++---------+-----------------------------------------------+-----------------+
+| Symbol  | Description                                   | Example         |
++---------+-----------------------------------------------+-----------------+
+| <       | Less than: Compares two values and returns    | 5 < 6 // true   |
+|         | true if the left side is less than the right. |                 |
++---------+-----------------------------------------------+-----------------+
+| <=      | Less than or equal to: Compares two values    | 5 <= 6 // true  |
+|         | and returns true if the left side is less     |                 |
+|         | than or equal to the right.                   |                 |
++---------+-----------------------------------------------+-----------------+
+| >       | Greater than: Compares two values and returns | 5 > 6 // false  |
+|         | true if the left side is larger than the      |                 |
+|         | right.                                        |                 |
++---------+-----------------------------------------------+-----------------+
+| >=      | Greater than or equal to: Compares two values | 5 >= 6 // false |
+|         | and returns true if the left side is larger   |                 |
+|         | than or equal to the right.                   |                 |
++---------+-----------------------------------------------+-----------------+
+| ===     | Strict equality: Compares two values and      | 5 === 6 // false|
+|         | returns true if values on the right and left  |                 |
+|         | are equal AND are the same data type.         |                 |
++---------+-----------------------------------------------+-----------------+
+| !==     | Inequality: Compares two values and returns   | 5 !== 6 // true |
+|         | the opposite Boolean value of what a strict   |                 |
+|         | equality operator would return.               |                 |
++---------+-----------------------------------------------+-----------------+
+
