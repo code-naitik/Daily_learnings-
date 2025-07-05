@@ -290,3 +290,33 @@ console.log(5 !== 5);       // false → value and type are the same
 |         | equality operator would return.               |                 |
 +---------+-----------------------------------------------+-----------------+
 
+Switch Statement
+The switch statement is used to perform different actions based on different conditions. Use the switch statement to select one of many code blocks to be executed.
+How It Works:-
+JavaScript looks at the expression.
+
+It compares the expression with each case (using ===).
+
+If it matches, it runs the code in that case.
+
+break stops it from running more cases.
+
+If no match is found, it runs the default block.
+
+Logical Operators and Booleans:-
+Decisions might require more than one comparison, and can be strung together with logical operators to produce a Boolean value.
+
++--------+---------------------------------------------------------------+------------------------------------------------------+
+| Symbol | Description                                                   | Example                                              |
++--------+---------------------------------------------------------------+------------------------------------------------------+
+| &&     | Logical AND: Compares two Boolean expressions. Returns true   | (5 > 6) && (5 < 6)                                   |
+|        | only if both sides are true.                                  | One side is false, other is true. Returns false      |
++--------+---------------------------------------------------------------+------------------------------------------------------+
+| ||     | Logical OR: Compares two Boolean expressions. Returns true    | (5 > 6) || (5 < 6)                                   |
+|        | if at least one side is true.                                 | One side is false, other is true. Returns true       |
++--------+---------------------------------------------------------------+------------------------------------------------------+
+| !      | Logical NOT: Returns the opposite value of a Boolean          | !(5 > 6)                                             |
+|        | expression.                                                   | 5 is not greater than 6, but "!" will return true    |
++--------+---------------------------------------------------------------+------------------------------------------------------+
+
+
