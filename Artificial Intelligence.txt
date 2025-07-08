@@ -558,7 +558,12 @@ What is Logistic Loss?
 Logistic loss (also called log loss or cross-entropy loss) measures how good or bad your predictions are for classification problems, especially when predicting probabilities.
 
 
+Multi-Layered Perceptrons and Backpropagation
+One-layer network, as we have seen above, is capable of classifying linearly separable classes. To build a richer model, we can combine several layers of the network. Mathematically it would mean that the function f would have a more complex form, and will be computed in several steps:
 
+z1=w1x+b1
+z2=w2α(z1)+b2
+f = σ(z2)
 
 
 
