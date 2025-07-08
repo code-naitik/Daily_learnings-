@@ -319,4 +319,32 @@ Decisions might require more than one comparison, and can be strung together wit
 |        | expression.                                                   | 5 is not greater than 6, but "!" will return true    |
 +--------+---------------------------------------------------------------+------------------------------------------------------+
 
+Arrays:-
+Working with data is a common task for any language, and it's a much easier task when data is organized in a structural format, such as arrays. With arrays, data is stored in a structure similar to a list. One major benefit of arrays is that you can store different types of data in one array.
+
+Arrays are all around us! Can you think of a real-life example of an array, such as a solar panel array?
+
+The syntax for an array is a pair of square brackets.
+
+let myArray = [];
+
+This is an empty array, but arrays can be declared already populated with data. Multiple values in an array are separated by a comma.
+
+let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
+
+The array values are assigned a unique value called the index.
+
+Loops:-
+Loops allow us to perform repetitive or iterative tasks, and can save a lot of time and code. Each iteration can vary in their variables, values, and conditions. There are different types of loops in JavaScript, and they all have small differences, but essentially do the same thing: loop over data.
+
+For Loop
+The for loop requires 3 parts to iterate:
+
+counter A variable that is typically initialized with a number that counts the number of iterations
+condition Expression that uses comparison operators to cause the loop to stop when false
+iteration-expression Runs at the end of each iteration, typically used to change the counter value
+// Counting up to 10
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
 
