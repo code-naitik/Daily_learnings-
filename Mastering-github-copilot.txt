@@ -108,3 +108,22 @@ Sensors send temperature readings to a server → inbound data flow.
 
 So, inbound = data coming in.
 
+Secure prompt transmission and context gathering:-
+The process begins with the secure transmission of the user prompt over HTTPS. This ensures that your natural language comment is sent to GitHub Copilot's servers securely and confidentially, protecting sensitive information.
+
+Proxy filter:-
+Once the context is gathered and the prompt is built, it passes securely to a proxy server hosted in a GitHub-owned Microsoft Azure tenant. The proxy filters traffic, blocking attempts to hack the prompt or manipulate the system into revealing details about how the model generates code suggestions.
+
+Toxicity filtering:-
+Copilot incorporates content filtering mechanisms before proceeding with intent extraction and code generation, to ensure that the generated code and responses don't include or promote:
+
+Hate speech and inappropriate content: Copilot employs algorithms to detect and prevent the intake of hate speech, offensive language, or inappropriate content that could be harmful or offensive.
+Personal data: Copilot actively filters out any personal data, such as names, addresses, or identification numbers, to protect user privacy and data security.
+
+Code generation with LLM:-
+Finally, the filtered and analyzed prompt is passed to LLM Models, which generate appropriate code suggestions. These suggestions are based on Copilot’s understanding of the prompt and the surrounding context, ensuring that the generated code is relevant, functional, and aligned with project-specific requirements.
+
+
+
+
+
