@@ -348,3 +348,16 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 
+While loop
+Unlike the syntax of the for loop, while loops only require a condition that will stop the loop when the condition becomes false. Conditions in loops usually rely on other values like counters, and must be managed during the loop. Starting values for counters must be created outside the loop, and any expressions to meet a condition, including changing the counter must be maintained inside the loop.
+
+//Counting up to 10
+let i = 0;
+while (i < 10) {
+ console.log(i);
+ i++;
+}
+
+Introduction to HTMl:-
+HTML, or HyperText Markup Language, is the 'skeleton' of the web. If CSS 'dresses up' your HTML and JavaScript brings it to life, HTML is the body of your web application. HTML's syntax even reflects that idea, as it includes "head", "body", and "footer" tags
+
