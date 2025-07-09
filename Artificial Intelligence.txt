@@ -580,7 +580,17 @@ The high-level API allows you to construct typical neural networks very quickly 
 
 It is also important to understand that you can use both APIs together, eg. you can develop your own network layer architecture using low-level API, and then use it inside the larger network constructed and trained with the high-level API. Or you can define a network using the high-level API as a sequence of layers, and then use your own low-level training loop to perform optimization. Both APIs use the same basic underlying concepts, and they are designed to work well together.
 
+Overfitting:
+Overfitting is an extremely important concept in machine learning, and it is very important to get it right!
 
+
+Why overfitting occurs
+Not enough training data
+Too powerful model
+Too much noise in input data
+
+How to detect overfitting:-
+overfitting can be detected by a very low training error, and a high validation error. Normally during training we will see both training and validation errors starting to decrease, and then at some point validation error might stop decreasing and start rising. This will be a sign of overfitting, and the indicator that we should probably stop training at this point (or at least make a snapshot of the model).
 
 
 
