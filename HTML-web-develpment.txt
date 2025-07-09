@@ -4,3 +4,10 @@ The DocType and html tags
 The first line of an HTML file is its doctype. It's a little surprising that you need to have this line at the very top of the file, but it tells older browsers that the browser needs to render the page in a standard mode.
 The document's 'head'
 The 'head' area of the HTML document includes crucial information about your web page, also known as metadata. 
+
+The document's body:-
+HTML Tags-
+In HTML, you add tags to your .html file to create elements of a web page. Each tag usually has an opening and closing tag, like this: <p>hello</p> to indicate a paragraph. Create your interface's body by adding a set of <body> tags inside the <html> tag pair;
+mages
+One html tag that doesn't need a closing tag is the <img> tag, because it has a src element that contains all the information the page needs to render the item.
+
