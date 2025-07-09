@@ -1,0 +1,6 @@
+Introduction
+HTML, or HyperText Markup Language, is the 'skeleton' of the web. If CSS 'dresses up' your HTML and JavaScript brings it to life, HTML is the body of your web application. HTML's syntax even reflects that idea, as it includes "head", "body", and "footer" tags.
+The DocType and html tags
+The first line of an HTML file is its doctype. It's a little surprising that you need to have this line at the very top of the file, but it tells older browsers that the browser needs to render the page in a standard mode.
+The document's 'head'
+The 'head' area of the HTML document includes crucial information about your web page, also known as metadata. 
