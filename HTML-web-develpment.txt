@@ -11,3 +11,7 @@ In HTML, you add tags to your .html file to create elements of a web page. Each 
 mages
 One html tag that doesn't need a closing tag is the <img> tag, because it has a src element that contains all the information the page needs to render the item.
 
+Semantic markup
+In general, it's preferable to use meaningful 'semantics' when writing HTML. What does that mean? It means that you use HTML tags to represent the type of data or interaction they were designed for. For example, the main title text on a page should use an <h1> tag.
+
+Add the following line right below your opening <body> tag:
