@@ -592,5 +592,13 @@ Too much noise in input data
 How to detect overfitting:-
 overfitting can be detected by a very low training error, and a high validation error. Normally during training we will see both training and validation errors starting to decrease, and then at some point validation error might stop decreasing and start rising. This will be a sign of overfitting, and the indicator that we should probably stop training at this point (or at least make a snapshot of the model).
 
+Overfitting and Bias-Variance Tradeoff
+Overfitting is actually a case of a more generic problem in statistics called Bias-Variance Tradeoff. If we consider the possible sources of error in our model, we can see two types of errors:
+
+Bias errors are caused by our algorithm not being able to capture the relationship between training data correctly. It can result from the fact that our model is not powerful enough (underfitting).
+Variance errors, which are caused by the model approximating noise in the input data instead of meaningful relationship (overfitting).
+During training, bias error decreases (as our model learns to approximate the data), and variance error increases. It is important to stop training - either manually (when we detect overfitting) or automatically (by introducing regularization) - to prevent overfitting.
+
+
 
 
