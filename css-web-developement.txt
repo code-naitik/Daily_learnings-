@@ -17,3 +17,33 @@ h1 {
 	text-align: center;
 }
 
+Ids
+Add some style to layout the left and right containers. Since there is only one left container and only one right container, they are given ids in the markup. To style them, use #:
+
+#left-container {
+	background-color: #eee;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+#right-container {
+	background-color: #eee;
+	width: 15%;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+Classes:
+In the example above, you styled two unique elements on the screen. If you want styles to apply to many elements on the screen, you can use CSS classes. Do this to layout the plants in the left and right containers.
+
+Notice that each plant in the HTML markup has a combination of ids and classes. The ids here are used by the JavaScript that you will add later to manipulate the terrarium plant placement. The classes, however, give all the plants a given style.
+
+<div class="plant-holder">
+	<img class="plant" alt="plant" id="plant1" src="./images/plant1.png" />
+</div>
