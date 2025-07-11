@@ -1,2 +1,19 @@
 Introduction
 CSS, or Cascading Style Sheets, solve an important problem of web development: how to make your web site look nice. Styling your apps makes them more usable and nicer-looking; you can also use CSS to create Responsive Web Design (RWD) - allowing your apps to look good no matter what screen size they are displayed on. CSS is not only about making your app look nice; its spec includes animations and transforms that can enable sophisticated interactions for your apps.
+The Cascade:
+Cascading Style Sheets incorporate the idea that the styles 'cascade' such that the application of a style is guided by its priority. Styles set by a web site author take priority over those set by a browser. Styles set 'inline' take priority over those set in an external style sheet.
+Inheritance:
+Styles are inherited from an ancestor style to a descendent, such that nested elements inherit the styles of their parents.
+CSS Selectors
+Tags
+So far, your style.css file has only a few tags styled, and the app looks pretty strange:
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #3a241d;
+	text-align: center;
+}
+
