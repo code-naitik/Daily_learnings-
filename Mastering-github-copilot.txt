@@ -123,6 +123,13 @@ Personal data: Copilot actively filters out any personal data, such as names, ad
 Code generation with LLM:-
 Finally, the filtered and analyzed prompt is passed to LLM Models, which generate appropriate code suggestions. These suggestions are based on Copilot’s understanding of the prompt and the surrounding context, ensuring that the generated code is relevant, functional, and aligned with project-specific requirements.
 
+Using GitHub Copilot with Python
+GitHub Copilot is a groundbreaking AI developer tool designed to accelerate your coding workflow by offering intelligent, autocomplete-style suggestions as you write. In this module, you’ll harness the power of GitHub Copilot to enhance your Python coding efficiency.
+Add a Pydantic model
+Go to the main.py file, navigate to the bottom of the provided code, select Ctrl + I (PC) or Cmd + I (Mac) and copy the following into the provided GitHub Copilot Chat box so that it can generate a Pydantic model for you:
+
+Create a Pydantic model so that I can use it in a new route that will accept JSON with text as a key which accepts a string.
+
 
 
 
