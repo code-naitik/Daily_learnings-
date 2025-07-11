@@ -599,6 +599,10 @@ Bias errors are caused by our algorithm not being able to capture the relationsh
 Variance errors, which are caused by the model approximating noise in the input data instead of meaningful relationship (overfitting).
 During training, bias error decreases (as our model learns to approximate the data), and variance error increases. It is important to stop training - either manually (when we detect overfitting) or automatically (by introducing regularization) - to prevent overfitting.
 
+Introduction to Computer Vision
+Computer Vision is a discipline whose aim is to allow computers to gain high-level understanding of digital images. This is quite a broad definition, because understanding can mean many different things, including finding an object on a picture (object detection), understanding what is happening (event detection), describing a picture in text, or reconstructing a scene in 3D. There are also special tasks related to human images: age and emotion estimation, face detection and identification, and 3D pose estimation, to name a few.
+
+
 
 
 
